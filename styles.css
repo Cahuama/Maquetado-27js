@@ -19,17 +19,14 @@ body{
     gap: 40px;
     display: flex;
 }
-.container > .social-icon-box{
-    display: inline;
 
-}
+
+
 .imagenx img{
     width: 100%;
 }
-.social{
-    display: flex;
-    flex-direction: column;
-}
+
+
 .title {
     flex-direction: column;
     text-align: center;
@@ -43,7 +40,7 @@ body{
     color: white;
     font-family: 'Open Sans';
     text-align: center;
-    padding: 30px;
+    
 }
 
 .social{
@@ -110,7 +107,7 @@ body{
         color: white;
         font-family: 'Open Sans';
         text-align: center;
-        padding: 30px;
+        
     }
 
     .social{
@@ -145,5 +142,8 @@ body{
         border-radius: 30px;
         text-decoration: none; /*decoración texto*/
         margin: 5px;
+    }
+    .container{
+        display: block;
     }
 }
